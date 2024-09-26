@@ -1,0 +1,35 @@
+@import "../../styles/utils.scss";
+
+.StyledHeader{
+    background-color: $color-grey-0;
+    padding: 1.2rem 4.8rem;
+    border-bottom: 1px solid $color-grey-100;
+  
+    display: flex;
+    gap: 2.4rem;
+    align-items: center;
+    justify-content: flex-end;
+
+    .StyledHeaderMenu{
+        display: flex;
+        gap: 0.4rem;
+
+        .ButtonIcon{
+            background: none;
+            border: none;
+            padding: 0.6rem;
+            border-radius: $border-radius-sm;
+            transition: all 0.2s;
+          
+            &:hover {
+              background-color: $color-grey-100;
+            }
+          
+            & svg {
+              width: 2.2rem;
+              height: 2.2rem;
+              color: $color-brand-600;
+            }
+        }
+    }
+}
