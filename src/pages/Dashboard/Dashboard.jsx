@@ -2,7 +2,7 @@ import "./dashboard.scss"
 
 const Dashboard = () => {
   return (
-    <div>Dashboard</div>
+    <div className="font-bold">Dashboard</div>
   )
 }
 
